@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--ثم تصميمة من الطالبة رانيا محمد بن عثمان تبلغ العمر 16 سنة -->
+<!--قم بتجربتها على متصفح  google chrome-->
+
+<head>
+    <link rel="shortcut icon" type="i.jpg" href="22.jpg" />
+    <meta name="author" content="Raniya Ben Otman">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <title>Hello World !</title>
+    <style>
+        html {
+            height: 100%;
+            width: 100%;
+        }
+        
+        @media screen and (max-width: 500px) {
+            body {
+                display: none;
+            }
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(#cc89f3, #fff, rgb(235, 108, 182))no-repeat;
+        }
+        
+        .box {
+            box-shadow: 0 0 8px 0 rgba(17, 22, 26, .16), 0 4px 8px 0 rgba(17, 22, 26, .08), 0 8px 16px 0 rgba(17, 22, 26, .08);
+            border-radius: 28px;
+            display: flex;
+            position: absolute;
+            top: 20%;
+            left: 20%;
+            height: 550px;
+            background: #fff;
+            width: 60%;
+        }
+        
+        .left {
+            border-bottom-left-radius: 28px;
+            border-top-left-radius: 28px;
+            width: 50%;
+            height: 100%;
+            background: #eeeeee
+        }
+        
+        .right {
+            border-bottom-right-radius: 28px;
+            border-top-right-radius: 28px;
+            background: linear-gradient(#3d035f, rgb(94, 5, 112), rgb(129, 16, 82))no-repeat;
+            width: 50%;
+            height: 100%;
+        }
+        
+        .left h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            color: black;
+        }
+        
+        input[type=text],
+        input[type=password] {
+            width: 90%;
+            padding: 12px 20px;
+            margin: 20px;
+            box-sizing: border-box;
+            border: none;
+            background-color: rgb(181, 185, 184);
+            color: white;
+        }
+        
+        .option-input {
+            margin-left: 20px;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            -ms-appearance: none;
+            -o-appearance: none;
+            appearance: none;
+            position: relative;
+            top: 9.0003px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            height: 20px;
+            width: 20px;
+            transition: all 0.15s ease-out 0s;
+            background: #cbd1d8;
+            border: none;
+            color: #fff;
+            margin-right: 0.3rem;
+            z-index: 1000;
+        }
+        
+        .option-input:hover {
+            background: #7a1e91;
+        }
+        
+        .option-input:checked {
+            background: #500374;
+        }
+        
+        .option-input:checked::before {
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            content: '✔';
+            display: inline-block;
+            font-size: 22.66667px;
+            text-align: center;
+            line-height: 20px;
+        }
+        
+        input[type=submit] {
+            background-color: rgb(131, 20, 131);
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4% 4% 4% 20px;
+            width: 90%;
+            cursor: pointer;
+        }
+        
+        .fa {
+            border-radius: .5rem;
+            padding: 6px;
+            margin-left: 5%;
+            text-align: center;
+            text-decoration: none;
+        }
+        
+        .fa-twitter:hover {
+            color: #05a8da
+        }
+        
+        .fa-facebook:hover {
+            color: #07105f
+        }
+        
+        .fa-github:hover {
+            color: #000000
+        }
+        
+        .fa-linkedin:hover {
+            color: #021e79
+        }
+        
+        .fa-twitter,
+        .fa-facebook,
+        .fa-github,
+        .fa-linkedin {
+            font-size: 27px;
+            color: rgb(83, 82, 82);
+        }
+        
+        .home {
+            align-content: center;
+            width: 60%;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+        
+        .img {
+            display: flex;
+            width: 35%;
+            margin-top: 20%;
+            margin-left: 35%;
+        }
+        
+        input[type=submit]:hover {
+            background: #630166;
+            color: rgb(226, 217, 230);
+        }
+        
+        button:hover {
+            background: #d2b7eb;
+            color: rgb(41, 2, 56);
+        }
+        
+        button {
+            width: 45%;
+            padding: 10px;
+            margin-top: 15px;
+            float: left;
+            font-size: 15px;
+            margin-left: 28%;
+            color: #fff;
+            border: 2px solid #fff;
+            background-color: Transparent;
+            background-repeat: no-repeat;
+            border-radius: 5em;
+        }
+        
+        .under {
+            display: flex;
+            padding: 3px;
+        }
+        
+        hr {
+            color: #9faab7;
+            margin-top: 7.5%;
+            width: 20%;
+            height: 2%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="left">
+            <h1>Log In</h1>
+            <input type="text" placeholder="Email">
+            <input type="password" name="password" placeholder="Password">
+
+            <label>
+                    <input type="checkbox" class="option-input checkbox"/>
+                  Remmber me?
+                  </label>
+            <a href="#">
+                <p style="float: right;line-height: 12px;margin-right:9%">Forget password?</p>
+            </a>
+            <input type="submit" value="Log In ">
+            <div class="under">
+                <hr>
+                <p style="color:#9faab7;">Or Connect With </p>
+                <hr>
+            </div>
+            <div class="home">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-github"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <p style="position: absolute;bottom:0%;text-align:center;left:20%;color:#9faab7">@2019</p>
+            </div>
+        </div>
+        <div class="right">
+            <img src="123.png" class="img">
+            <h1 style="text-align: center;color:#fff;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman';">Hello,Friend</h1>
+            <p style="text-align: center;color: #fff;width:70%;margin:0 auto;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Enter your personal details and starts journey with us
+            </p>
+            <a href="#"> <button>REGISTER<img src="221.png" style="float: right; margin-left: 1%;"></button></a>
+
+
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
